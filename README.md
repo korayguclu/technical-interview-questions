@@ -5,7 +5,17 @@ Technical Interview Questions Projekt Contains fullstack interveiw questions for
 
 #Java Questions
 
-## Database
+- Describe Java Messaging Service (JMS) messaging modes
+
+Synchronous: In this mode a sender component sends a message via message-oriented middleware (MOM) message queue to atnoher component and waits for answer to proceed further. This is similar to blocking IO.
+
+Asynchronous: In this mode a sender component sends a message to another component via MOM message queue and continues processin further without waiting for an answer. Async. mode is desireable in case of high volume processing. 
+
+- Describe JMS Messaging models
+
+publish and subscribe: (aka. one-to-many ) One producer sends a message to many consumers through a virtial channel called a *topic*. Consumers can subscribe to a *topic*. Every consumers recieves a copy of each message. 
+
+point to point: (aka. one-to-one ) it is possible to send messages async. and sync. via virtual channels called *queue*. A queue can have multiple reciever but only one reciever gets the message. p2p guarantees that only one consumer processes each message.  
 
 - Describe transaction isolation levels
 
