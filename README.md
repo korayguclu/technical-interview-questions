@@ -13,10 +13,10 @@ Technical Interview Questions Projekt Contains fullstack interveiw questions for
 
 If you have a multiuser portal where users can change other users data as the following example, you need to use optimistic or pesimistic locking. (ref:http://bit.ly/1q0FcVG)
 
-1.User A reads a record
-2.User B reads the same record
-3.User A updates that record
-4.User B updates the same record
+1. User A reads a record
+2. User B reads the same record
+3. User A updates that record
+4. User B updates the same record
 
 User B2 has now over-written the changes that User A made. They are completely gone, as if they never happened. 
 This is called a 'lost update'.
