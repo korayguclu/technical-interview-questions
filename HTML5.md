@@ -95,4 +95,12 @@ HTML5 shim or Modernizr.js renders HTML5 elements correctly in Internet Explorer
 HTML 5 Media Queries are allowing content rendering to adapt to conditions such as screen resolution such as smartphone or web monitor resolution.
 
 
+## Which HTML 4.0 elements are removed in HTML5
+
+Follown elements have been removed : acronym, applet, basefont, big, center, dir, font, frame, frameset, noframes, strike, tt 
+
 # HTML5 Links
+
+- http://caniuse.com/
+- http://html5test.com/
+- http://fmbip.com/litmus
