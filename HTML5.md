@@ -86,9 +86,28 @@ localStorage.removeItem('myemail' );
 sessionStorage is like localStorage but in constrast to localStorage data to be maintained only until the browser window closes.
 localStorage does not have a life time limit.
 
-## Decribe HTML5 shim and modernizer 
+## Decribe HTML5 shim/shiv and modernizer 
 
-HTML5 shim or Modernizr.js renders HTML5 elements correctly in Internet Explorer prior to version 9.
+HTML5 shim/shiv or Modernizr.js renders HTML5 elements correctly in Internet Explorer prior to version 9.
+
+## Describe HTML5 shim/shiv and its usage 
+
+HTML5Shiv is a JavaScript workaround solution to display HTML5 elements properly in versions of Internet Explorer prior to version 9. IE 8 and less do not allow unknown elements to be styled without JavaScript.
+
+It does not suddenly make older IE Browsers support the audio or video element, it just means that you can use section instead of div and style them in CSS.
+
+Insert following code in your head tag.
+
+```
+<!--[if lt IE 9]>
+<script src="dist/html5shiv.js"></script>
+<![endif]-->
+```
+
+## Describe difference between HTML5 Shim/shiv and Modernizr
+
+Modernizr 1.5+ 
+
 
 ## Describe Media Queries 
 
