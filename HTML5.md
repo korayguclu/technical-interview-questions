@@ -30,12 +30,12 @@ Content...
 
 Following tags are HTML5 tags which are used to structure a page.
 
-- <header>: Represents header data of HTML.
-- <footer>: Footer section of the page.
-- <nav>: Navigation elements in the page.
-- <article>: Self-contained content.
-- <section>: Used inside article to define sections or group content in to sections.
-- <aside>: Represent side bar contents of a page.
+- header: Represents header data of HTML.
+- footer: Footer section of the page.
+- nav: Navigation elements in the page.
+- article: Self-contained content.
+- section: Used inside article to define sections or group content in to sections.
+- aside: Represent side bar contents of a page.
 
 ## Describe HTML5 Datalist
 
