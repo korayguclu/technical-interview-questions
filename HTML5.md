@@ -86,5 +86,13 @@ localStorage.removeItem('myemail' );
 sessionStorage is like localStorage but in constrast to localStorage data to be maintained only until the browser window closes.
 localStorage does not have a life time limit.
 
+## Decribe HTML5 shim and modernizer 
+
+HTML5 shim or Modernizr.js renders HTML5 elements correctly in Internet Explorer prior to version 9.
+
+## Describe Media Queries 
+
+HTML 5 Media Queries are allowing content rendering to adapt to conditions such as screen resolution such as smartphone or web monitor resolution.
+
 
 # HTML5 Links
