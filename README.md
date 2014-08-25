@@ -13,9 +13,3 @@ Technical Interview Questions Projekt Contains fullstack interveiw questions for
 
 
 
-
-#Javascript
-
-
-## Javascript Testing
-
