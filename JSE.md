@@ -73,3 +73,29 @@ Lambda-Ausdrücke sind eine kompakte Schreibweise zur Formulierung einer anonyme
 Similar interfaces Runnable, EventHandler which runs later.
 Consumer <String> c= (String text)->System.out.println (text);
 http://openjdk.java.net/projects/jdk8/features
+
+
+## Describe Unbounded, UpperBounded, LowerBounded Wildcards in java generics
+
+Unbounded : It is specified with wildcard (?) character. It is type of unknow e.g. ```List<?>``` means list of unknow type. Any object can be added to the list.
+
+UpperBounded :  ```List<? extends Number>``` all subclass of Number can be added to the list.
+
+LowerBounded : ```List<? super Integer>``` all supertype of Integer can be added to the list.
+
+
+## Describe heap polution
+
+This situation can happen when a a variable of a parameterized type such as ```List<String>``` refers to an object that is not of that parameterized type such as ```ArrayList<Number>()```. 
+
+Example (of heap pollution): 
+ 
+```
+List ln = new ArrayList<Number>(); 
+List<String> ls =ln;  // unchecked warning 
+String s = ls.get(0); // ClassCastException 
+```
+
+After the assignment of the reference variable  ln to the reference variable ls , the  ```List<String>``` variable will point to a  ```List<Number>``` object. Such a situation is called  heap pollution and is usually indicated by an unchecked warning.  A polluted heap is likely to lead to an unexpected  ClassCastException at runtime.  In the example above, it will lead to a  ClassCastException , when a object is retrieved from the  ```List<String>``` and assigned to a  String variable, because the object is a  Number , not a  String .
+
+ref. http://bit.ly/1tDldOj

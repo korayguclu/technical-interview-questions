@@ -33,6 +33,13 @@ XML Webservices (jax-ws): that is java api for xml webservices SOAP(Simple objec
 
 RESTful webservices (jax-rs): that is java api for RESTful webservices. Jersey is reference implementation. REST is Representational State Transfer.
 
+## Describe wsimport tool
+
+You can use wsimport tool to generate client side java classes for a given WS endpoint as shown below.
+```
+wsimport -clientjar wsclient.jar http://example.com/webservice/endpoint?WSDL
+```
+
 ## Describe optimistic and pessimistic locking
 
 If you have a multiuser portal where users can change other users data as the following example, you need to use optimistic or pesimistic locking. (ref:http://bit.ly/1q0FcVG)

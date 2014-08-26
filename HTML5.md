@@ -118,8 +118,16 @@ HTML 5 Media Queries are allowing content rendering to adapt to conditions such 
 
 Follown elements have been removed : acronym, applet, basefont, big, center, dir, font, frame, frameset, noframes, strike, tt 
 
+## Describe CSS Reset and normalize.css
+
+Every browser has its own default stylesheet,that it uses to make unstyled websites appear better.
+A CSS Reset  minified set of CSS rules that resets the styling of all HTML elements to a consistent baseline to remove differences between browsers.
+
+Normalize.css is a such CSS reset library.  
+
 # HTML5 Links
 
 - http://caniuse.com/
 - http://html5test.com/
 - http://fmbip.com/litmus
+- http://htmldog.com/
