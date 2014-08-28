@@ -47,18 +47,19 @@ Target IE 6 ONLY
 <![endif]-->
 ```
 
-## Descrube selectors based on relationships
+## Describe selectors based on relationships
 
 Selector |    Selects
--|-
+--- | --- 
 A E	|Any E element that is a descendant of an A element (that is: a child, or a child of a child, etc.)
 A > E|	Any E element that is a child of an A element
 E:first-child |	Any E element that is the first child of its parent
 B + E  |	Any E element that is the next sibling of a B element (that is: the next child of the same parent)
 
 
-## Dscribe priority in class and id selectors
+## Describe  class and id selector priority
 
 You can try rearranging the lines in your CSS file to show that the order has no effect. 
 The class selectors .myselector have priority over the tag selector strong, p etc.
 The ID selector #myidselector has priority over the class and tag selectors.
+
