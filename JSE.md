@@ -96,6 +96,6 @@ List<String> ls =ln;  // unchecked warning
 String s = ls.get(0); // ClassCastException 
 ```
 
-After the assignment of the reference variable  ln to the reference variable ls , the  ```List<String>``` variable will point to a  ```List<Number>``` object. Such a situation is called  heap pollution and is usually indicated by an unchecked warning.  A polluted heap is likely to lead to an unexpected  ClassCastException at runtime.  In the example above, it will lead to a  ClassCastException , when a object is retrieved from the  ```List<String>``` and assigned to a  String variable, because the object is a  Number , not a  String .
+After the assignment of the reference variable  ln to the reference variable ls , the  ```List<String>``` variable will point to a  ```List<Number>``` object. Such a situation is called  heap pollution and is usually indicated by an unchecked warning.  A polluted heap is likely to lead to an unexpected  ClassCastException at runtime.  In the example above, it will lead to a  ClassCastException , when a object is retrieved from the  ```List<String>`` and assigned to a  String variable, because the object is a  Number , not a  String .
 
 ref. http://bit.ly/1tDldOj
