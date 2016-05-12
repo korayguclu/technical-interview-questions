@@ -63,3 +63,16 @@ You can try rearranging the lines in your CSS file to show that the order has no
 The class selectors .myselector have priority over the tag selector strong, p etc.
 The ID selector #myidselector has priority over the class and tag selectors.
 
+## Why do you need to clear floats?
+
+Floats are very common to use layouts and grids. The problem with them is that they donot add to heigh(height resize)
+of their parent element height. For example if parent element only have float elements its height will collapse to zero. 
+
+## Difference between display: inline and display: inline-block?
+An element with display: inline; cannot have a height or a width or a vertical margin. 
+An element with display: inline-block; like inline elements but they can have a width and a height. This can be used instead of float.
+An element with display: block; can have a width, height and margin. Default width is 100%
+source http://bit.ly/1qgGwbe, e.g.:http://jsfiddle.net/Mta2b/
+
+
+
